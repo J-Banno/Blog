@@ -1,0 +1,44 @@
+.myTitle {
+  background: linear-gradient(
+    90deg,
+    rgba(63, 64, 66, 1) 28%,
+    rgba(118, 133, 132, 1) 60%,
+    rgba(225, 229, 230, 1) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  font-size: 4em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.borderTitle {
+  width: 40%;
+  border: aliceblue solid 1px;
+  margin: 0% 30% 5% 30%;
+}
+
+body {
+  margin: 0;
+  background-color: #1c1c1c;
+}
+
+.postOne {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.postTwo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.postThree {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.postFour {
+  display: flex;
+  justify-content: flex-end;
+}

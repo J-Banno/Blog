@@ -1,0 +1,29 @@
+.footerContainer {
+  margin-top: 80px;
+  background-color: #3e3f41;
+  padding-bottom: 8px;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.copyFooter {
+  margin: 0px 0px 0px 10px;
+}
+
+.contactFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleFooter {
+  border-bottom: aliceblue solid 1px;
+  padding-bottom: 7px;
+  margin-bottom: 0;
+}
+
+.mailFooter {
+  margin-bottom: 0;
+  letter-spacing: 2px;
+}

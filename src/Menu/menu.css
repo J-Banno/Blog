@@ -1,0 +1,30 @@
+.menuContainer {
+  background: rgb(63, 64, 66);
+  background: linear-gradient(
+    90deg,
+    rgba(63, 64, 66, 1) 28%,
+    rgba(118, 133, 132, 1) 60%,
+    rgba(225, 229, 230, 1) 100%
+  );
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+}
+
+.puce {
+  padding: 10px;
+}
+
+.newPage {
+  text-decoration: none;
+  font-size: 1.4em;
+  color: aliceblue;
+}

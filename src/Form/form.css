@@ -1,0 +1,50 @@
+.formPostContent {
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fromTitle {
+  border-top: aliceblue solid 1px;
+  padding-top: 15px;
+  width: 75%;
+  text-align: center;
+  font-size: 1.7em;
+  margin-bottom: 40px;
+}
+#inputTitle {
+  margin-bottom: 20px;
+  height: 30px;
+  box-shadow: 9px 10px 30px -15px rgba(228, 227, 227, 0.75);
+}
+
+#textContent {
+  margin-bottom: 20px;
+  box-shadow: 9px 10px 30px -15px rgba(228, 227, 227, 0.75);
+}
+
+#inputDate {
+  margin-bottom: 20px;
+  height: 25px;
+  width: 10%;
+  box-shadow: 9px 10px 30px -15px rgba(228, 227, 227, 0.75);
+}
+
+#inputAutor {
+  margin-bottom: 20px;
+  height: 30px;
+  width: 15%;
+  box-shadow: 9px 10px 30px -15px rgba(228, 227, 227, 0.75);
+}
+
+.inputPost {
+  font-size: 1.3em;
+  display: flex;
+}
+
+.buttonForm {
+  font-size: 1.2em;
+  border-radius: 8px;
+}
